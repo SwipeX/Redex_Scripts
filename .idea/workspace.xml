@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a05f23-bf6a-4b81-a63f-9c3c6bbf6523" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/act/Action.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/BlueArea.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/RedArea.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/paint/MainPaint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/EnclosedArea.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/RSBot.jar" afterPath="$PROJECT_DIR$/lib/RSBot.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Redex_Scripts.iml" afterPath="$PROJECT_DIR$/Redex_Scripts.iml" />
     </list>
     <ignored path="Redex_Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,13 +70,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RedexFisher.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java">
+      <file leaf-file-name="RedexSoulWars.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="52" selection-start="3851" selection-end="3851" vertical-scroll-proportion="1.6605715">
+            <state line="22" column="8" selection-start="575" selection-end="652" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPaint.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/paint/MainPaint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.17485714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +106,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/com/RedexSoulWars.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/SArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/act/Action.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/RedArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/BlueArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" />
       </list>
     </option>
   </component>
@@ -161,8 +185,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="RedexFisher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSBot.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -170,13 +252,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RedexSoulWars.inst" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -402,13 +493,166 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="52" selection-start="3851" selection-end="3851" vertical-scroll-proportion="1.6605715">
+        <state line="123" column="52" selection-start="3851" selection-end="3851" vertical-scroll-proportion="0.3782857">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/act/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="67" selection-start="660" selection-end="660" vertical-scroll-proportion="0.50514287">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/EnclosedArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="67" selection-start="684" selection-end="684" vertical-scroll-proportion="0.58285713">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/BlueArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.21371429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/RedArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="641" selection-end="641" vertical-scroll-proportion="0.408">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="125" selection-start="864" selection-end="864" vertical-scroll-proportion="0.58285713">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="575" selection-end="652" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/paint/MainPaint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.17485714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Redex_Scripts</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>RSBot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
