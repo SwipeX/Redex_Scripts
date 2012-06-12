@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a05f23-bf6a-4b81-a63f-9c3c6bbf6523" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/act/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/BlueArea.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/RedArea.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/paint/MainPaint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/EnclosedArea.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/RSBot.jar" afterPath="$PROJECT_DIR$/lib/RSBot.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/Redex.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/gui/Prefrences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/strat/AreaManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Contain.java" />
+      <change type="DELETED" beforePath="C:\Users\Tim\Documents\GitHub\Redex_Scripts\scripts\RedexSoulWars\inst\BlueArea.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tim\Documents\GitHub\Redex_Scripts\scripts\RedexSoulWars\inst\RedArea.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tim\Documents\GitHub\Redex_Scripts\scripts\RedexSoulWars\wrappers\EnclosedArea.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Tim\Documents\GitHub\Redex_Scripts\scripts\RedexSoulWars\paint\MainPaint.java" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/Store.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Redex_Scripts.iml" afterPath="$PROJECT_DIR$/Redex_Scripts.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" />
     </list>
     <ignored path="Redex_Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,22 +75,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RedexSoulWars.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java">
+      <file leaf-file-name="AreaManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="8" selection-start="575" selection-end="652" vertical-scroll-proportion="0.0">
+            <state line="47" column="18" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.864">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#458#475#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPaint.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/paint/MainPaint.java">
+      <file leaf-file-name="RedexSoulWars.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.17485714">
+            <state line="34" column="9" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Store.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#2852#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,14 +123,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/com/RedexSoulWars.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/SArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/act/Action.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" />
         <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/RedArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/gui/Prefrences.form" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" />
         <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/BlueArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/EdgeArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/EnclosedArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/BreifArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/strat/AreaManager.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Contain.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Action.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Method.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/Store.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaActions.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/gui/Prefrences.java" />
         <option value="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" />
       </list>
     </option>
@@ -151,8 +176,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,7 +230,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="paint" />
+              <option name="myItemId" value="wrappers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="act" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,20 +360,27 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="copyright" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -301,6 +419,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -327,24 +463,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -405,8 +523,27 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="false">C:\Users\Tim\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="44a05f23-bf6a-4b81-a63f-9c3c6bbf6523" name="Default" comment="" />
       <created>1339364758255</created>
       <updated>1339364758255</updated>
     </task>
@@ -414,29 +551,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1932" height="1052" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CafeBabe" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CafeBabe" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946581" sideWeight="0.67" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -487,13 +626,75 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="125" selection-start="864" selection-end="864" vertical-scroll-proportion="0.58285713" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="52" selection-start="3851" selection-end="3851" vertical-scroll-proportion="0.3782857">
+        <state line="29" column="0" selection-start="1063" selection-end="1167" vertical-scroll-proportion="0.5634286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Contain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="11" selection-start="261" selection-end="261" vertical-scroll-proportion="0.23314285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="405" selection-end="405" vertical-scroll-proportion="0.21371429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/strat/AreaManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.25257143">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -502,67 +703,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/act/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+        <state line="10" column="35" selection-start="243" selection-end="243" vertical-scroll-proportion="0.19428572">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="67" selection-start="660" selection-end="660" vertical-scroll-proportion="0.50514287">
+        <state line="24" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#2852#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="18" selection-start="613" selection-end="613" vertical-scroll-proportion="0.3977143">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/EnclosedArea.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/gui/Prefrences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="67" selection-start="684" selection-end="684" vertical-scroll-proportion="0.58285713">
+        <state line="74" column="31" selection-start="2277" selection-end="2277" vertical-scroll-proportion="1.2366589">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/BlueArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.21371429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/RedArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="641" selection-end="641" vertical-scroll-proportion="0.408">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="125" selection-start="864" selection-end="864" vertical-scroll-proportion="0.58285713">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#6242#0" expanded="true" />
+            <element signature="e#708#738#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="575" selection-end="652" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="34" column="9" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/paint/MainPaint.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.17485714">
-          <folding />
+        <state line="47" column="18" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.864">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#458#475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -572,6 +760,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Redex</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
