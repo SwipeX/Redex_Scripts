@@ -22,16 +22,16 @@ public class AreaManager implements Task, Condition {
     HashMap<Boolean, Action> checks = new HashMap<Boolean, Action>();
 
     public AreaManager() {
-        checks.put(Store.inBlueBandage(), AreaActions.joinTeam());
-        checks.put(Store.inBlueGraveyard(), AreaActions.joinTeam());
+        checks.put(Store.inBlueBandage(), AreaActions.doBanages());
+        checks.put(Store.inBlueGraveyard(), AreaActions.exitGraveYard());
         checks.put(Store.inBlueRoom(), AreaActions.joinTeam());
-        checks.put(Store.inBlueSpawn(), AreaActions.joinTeam());
-        checks.put(Store.inBlueSpawnBig(), AreaActions.joinTeam());
-        checks.put(Store.inOblesik(), AreaActions.joinTeam());
-        checks.put(Store.inRedBandage(), AreaActions.joinTeam());
+        checks.put(Store.inBlueSpawn(), AreaActions.exitSpawn());
+        checks.put(Store.inBlueSpawnBig(), AreaActions.exitSpawn());
+        checks.put(Store.inOblesik(), new PlayerActions());
+        checks.put(Store.inRedBandage(), AreaActions.doBanages());
         checks.put(Store.inRedRoom(), AreaActions.joinTeam());
-        checks.put(Store.inRedSpawn(), AreaActions.joinTeam());
-        checks.put(Store.inRedSpawnBig(), AreaActions.joinTeam());
+        checks.put(Store.inRedSpawn(), AreaActions.exitSpawn());
+        checks.put(Store.inRedSpawnBig(), AreaActions.exitSpawn());
         checks.put(Store.inWaiting(), AreaActions.joinTeam());
     }
 

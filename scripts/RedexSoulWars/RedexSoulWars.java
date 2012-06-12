@@ -5,6 +5,8 @@
 package RedexSoulWars;
 
 import RedexSoulWars.gui.Prefrences;
+import RedexSoulWars.inst.AreaManager;
+import org.powerbot.concurrent.strategy.Strategy;
 import org.powerbot.game.api.ActiveScript;
 import org.powerbot.game.api.Manifest;
 import org.powerbot.game.api.methods.input.Mouse;
@@ -37,6 +39,7 @@ public class RedexSoulWars extends ActiveScript implements PaintListener {
         while (prefs.isValid()) {
 
         }
+        provide(new Strategy(new AreaManager(), new AreaManager()));
     }
 
     @Override

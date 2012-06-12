@@ -92,6 +92,27 @@ public class AreaActions {
             }
         };
     }
+
+    public static Action exitSpawn() {
+        return null;
+    }
+
+    public static Action exitGraveYard() {
+        return null;
+    }
+
+    public static Action doBanages() {
+        return null;
+
+    }
+
+    public static Action Suicide() {
+        return null;
+    }
+
+    public static Action buryBones() {
+        return null;
+    }
 }
 
 
