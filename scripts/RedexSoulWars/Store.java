@@ -22,9 +22,10 @@ public class Store {
     public static int losses;
     public static int ties;
     public static long startTime;
-    public static final int[] barriersID = {42018, 42015, 42014, 42017, 42016};
+    public static final int[] barriersID ={42013, 42014, 42015, 42016, 42017, 42018};
     public static Tile redTile = new Tile(1899, 3162, 0);
     public static Tile blueTile = new Tile(1880, 3162, 0);
+
 
     public final static boolean inWaiting() {
         Area area = new Area(new Tile(1880, 3186, 0), new Tile(1899, 3157, 0));

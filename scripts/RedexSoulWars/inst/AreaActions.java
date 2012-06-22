@@ -94,7 +94,15 @@ public class AreaActions {
     }
 
     public static Action exitSpawn() {
-        return null;
+
+        return new Action() {
+            @Override
+            public void act() {
+                SceneEntities.getNearest(Store.barriersID).click(true);
+                Time.sleep(500);
+            }
+
+        };
     }
 
     public static Action exitGraveYard() {

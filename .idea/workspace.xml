@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a05f23-bf6a-4b81-a63f-9c3c6bbf6523" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/RedexFighter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/Store.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/bank/BankUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/combat/CombatUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/combat/Fight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/gui/GUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/inventory/HealthMonitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/paint/DebugPaint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/paint/MousePaint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/RedexFighter/walking/Traversal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexSoulWars/Store.java" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/Store.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaActions.java" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java" afterPath="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java" />
     </list>
     <ignored path="Redex_Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +72,95 @@
     <favorites_list name="Redex_Scripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="RedexFighter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/RedexFighter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="28" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pickup.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="29" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroundUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="27" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#1794#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebugPaint.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/paint/DebugPaint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="72" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.5302857">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MousePaint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/paint/MousePaint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="65" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombatUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/combat/CombatUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="168" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HealthMonitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/inventory/HealthMonitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="44" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/gui/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="22" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-13.6">
+              <folding>
+                <element signature="e#0#24437#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1143#1173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -78,22 +175,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/RedArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/gui/Prefrences.form" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/BlueArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/EdgeArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/EnclosedArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/BreifArea.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/strat/AreaManager.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Contain.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Action.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Method.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/Store.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/gui/Prefrences.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaActions.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/bank/BankArea.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/bank/BankUtil.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/walking/Traversal.java" />
+        <option value="$PROJECT_DIR$/scripts/Store.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/groundUtil.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/Store.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/gui/GUI.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/combat/Fight.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/paint/MousePaint.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/combat/CombatUtil.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/HealthMonitor.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/RedexFighter.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexFighter/paint/DebugPaint.java" />
       </list>
     </option>
   </component>
@@ -162,8 +259,22 @@
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexFighter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,33 +292,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemId" value="RedexFighter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wrappers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Redex_Scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Redex_Scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RedexSoulWars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strat" />
+              <option name="myItemId" value="paint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,11 +314,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemId" value="RedexFighter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inst" />
+              <option name="myItemId" value="inventory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,7 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemId" value="RedexFighter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -269,11 +358,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RedexSoulWars" />
+              <option name="myItemId" value="RedexFighter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="act" />
+              <option name="myItemId" value="ground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,7 +380,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RedexFisher" />
+              <option name="myItemId" value="RedexFighter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="combat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,12 +398,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RSBot.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <option name="myItemId" value="RedexFighter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -326,7 +423,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="copyright" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -506,17 +603,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1932" height="1052" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CafeBabe" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -524,11 +620,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946581" sideWeight="0.67" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24412394" sideWeight="0.67" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -627,91 +724,125 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/PlayerActions.java">
+    <entry file="jar://$PROJECT_DIR$/lib/RSBot.jar!/org/powerbot/game/api/methods/widget/Bank.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="125" selection-start="864" selection-end="864" vertical-scroll-proportion="0.58285713" />
+        <state line="37" column="56" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.34289128" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/RSBot.jar!/org/powerbot/game/api/methods/Walking.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="63" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.5" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/walking/Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="72" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/bank/BankUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="772" selection-end="772" vertical-scroll-proportion="0.5245714" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/RSBot.jar!/org/powerbot/concurrent/strategy/Strategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="19" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.4517647">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1063" selection-end="1167" vertical-scroll-proportion="0.5634286" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/Contain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="261" selection-end="261" vertical-scroll-proportion="0.23314285">
+        <state line="29" column="0" selection-start="1063" selection-end="1167" vertical-scroll-proportion="-1.8651428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/wrappers/ActionArea.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="405" selection-end="405" vertical-scroll-proportion="0.21371429">
+        <state line="19" column="3" selection-start="536" selection-end="605" vertical-scroll-proportion="0.34742856">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="22" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-13.6">
+          <folding>
+            <element signature="e#0#24437#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1143#1173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/combat/Fight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="592" selection-end="592" vertical-scroll-proportion="0.34742856">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/paint/MousePaint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="65" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/combat/CombatUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="168" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/strat/AreaManager.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/inventory/HealthMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.25257143">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/act/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="243" selection-end="243" vertical-scroll-proportion="0.19428572">
+        <state line="21" column="44" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/gui/Prefrences.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="31" selection-start="2277" selection-end="2277" vertical-scroll-proportion="1.2366589">
-          <folding>
-            <element signature="e#0#6242#0" expanded="true" />
-            <element signature="e#708#738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/RedexSoulWars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="30" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.68">
-          <folding>
-            <element signature="e#0#1474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.4662857">
-          <folding>
-            <element signature="e#0#2852#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="20" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.9417143">
+        <state line="25" column="29" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexSoulWars/inst/AreaManager.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/RedexFighter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="65" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.456">
+        <state line="57" column="28" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#1753#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#546#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="27" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1794#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/paint/DebugPaint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="72" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.5302857">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
