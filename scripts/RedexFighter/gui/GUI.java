@@ -402,8 +402,8 @@ public class GUI extends javax.swing.JFrame {
 
     private void addAlchActionPerformed(java.awt.event.ActionEvent evt) {
         if (toAlchTxt.getText() != null) {
-            Store.lootNames.add((toAlchTxt.getText()));
-            lootList.setListData(Store.alchNames.toArray(new String[Store.alchNames.size()]));
+            Store.alchNames.add((toAlchTxt.getText()));
+            alchList.setListData(Store.alchNames.toArray(new String[Store.alchNames.size()]));
         }
     }
 

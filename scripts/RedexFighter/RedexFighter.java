@@ -7,6 +7,8 @@ package RedexFighter;
 import RedexFighter.combat.Fight;
 import RedexFighter.ground.Pickup;
 import RedexFighter.gui.GUI;
+import RedexFighter.inventory.Alchemy;
+import RedexFighter.inventory.BonesToPeaches;
 import RedexFighter.inventory.HealthMonitor;
 import RedexFighter.paint.DebugPaint;
 import RedexFighter.paint.MousePaint;
@@ -53,9 +55,11 @@ public class RedexFighter extends ActiveScript implements PaintListener {
         }
         Tile p = Players.getLocal().getLocation();
         Store.combatArea = new Area(new Tile(p.getX() - 20, p.getY() - 20, 0), new Tile(p.getX() + 20, p.getY() + 20, 0));
-        provide(new Fight());
         provide(new HealthMonitor());
         provide(new Pickup());
+        provide(new BonesToPeaches());
+        provide(new Alchemy());
+        provide(new Fight());
     }
 
     DebugPaint Debug = new DebugPaint();

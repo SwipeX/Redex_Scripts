@@ -14,11 +14,11 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 public class Store {
-    public static int HP_PERCENT;
+    public static int HP_PERCENT = 40;
     public static ArrayList<String> npcNames = new ArrayList<String>();
     public static ArrayList<String> lootNames = new ArrayList<String>();
     public static ArrayList<String> alchNames = new ArrayList<String>();
-    public static int radius = -1;
+    public static int radius = 20;
     public static boolean B2P = false;
     public static boolean Banking = false;
     public static Area combatArea;
