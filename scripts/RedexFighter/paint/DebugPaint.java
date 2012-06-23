@@ -5,6 +5,7 @@
 package RedexFighter.paint;
 
 import RedexFighter.Store;
+import RedexFighter.ground.GroundUtil;
 import org.powerbot.game.api.methods.interactive.Players;
 import org.powerbot.game.bot.event.listener.PaintListener;
 
@@ -28,6 +29,6 @@ public class DebugPaint implements PaintListener {
         g.drawString("Store.Banking " + Store.Banking, 100, 90);
         g.drawString("Player.isInCombat() " + Players.getLocal().isInCombat(), 100, 105);
         g.drawString("Player.isMoving() " + Players.getLocal().isMoving(), 100, 120);
-        // g.drawString("Ground.hasLoot() " + GroundUtil.hasItem(), 100, 135);
+        g.drawString("Ground.hasLoot() " + GroundUtil.hasItem(), 100, 135);
     }
 }

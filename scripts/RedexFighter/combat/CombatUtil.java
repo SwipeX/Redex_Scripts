@@ -4,6 +4,7 @@
 
 package RedexFighter.combat;
 
+import org.powerbot.game.api.methods.Calculations;
 import org.powerbot.game.api.methods.interactive.NPCs;
 import org.powerbot.game.api.util.Time;
 import org.powerbot.game.api.wrappers.interactive.NPC;
@@ -17,24 +18,24 @@ import org.powerbot.game.api.wrappers.interactive.NPC;
  */
 public class CombatUtil {
     public static void attackNearest(String[] input) {
-        boolean breakable = false;
+        double distance = 50;
+        NPC npc = null;
         for (NPC n : NPCs.getLoaded()) {
             for (String s : input) {
                 if (n.getName().toLowerCase().equals(s.toLowerCase())) {
                     if (n.isInCombat()) {
                         break;
                     } else {
-                        n.interact("ttack");
-                        breakable = true;
-                        break;
+                        if (Calculations.distanceTo(n) < distance) {
+                            npc = n;
+                            distance = Calculations.distanceTo(n);
+                        }
                     }
                 }
             }
-            if (breakable) {
-                breakable = false;
-                break;
-            }
+
         }
+        npc.interact("ttack");
         Time.sleep(500, 1000);
     }
 }

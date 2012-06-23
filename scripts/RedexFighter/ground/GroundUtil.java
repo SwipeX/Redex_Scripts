@@ -37,10 +37,12 @@ public class GroundUtil {
     public static boolean hasItem() {
         for (String s : Store.lootNames) {
             for (GroundItem g : GroundItems.getLoaded()) {
-                if (g.getGroundItem() != null)
-                    if (g.getGroundItem().getName().toLowerCase().equals(s.toLowerCase())) {
-                        return true;
-                    }
+                if (g != null && g.getGroundItem() != null) {
+                    if (g.getGroundItem().getName() != null)
+                        if (g.getGroundItem().getName().toLowerCase().equals(s.toLowerCase())) {
+                            return true;
+                        }
+                }
             }
         }
         return false;
