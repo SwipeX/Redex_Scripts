@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a05f23-bf6a-4b81-a63f-9c3c6bbf6523" name="Default" comment="" />
+    <list default="true" id="44a05f23-bf6a-4b81-a63f-9c3c6bbf6523" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\JAdamita\Documents\GitHub\Redex_Scripts\scripts\RedexAlter\bank\Bank.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexAlter/Constants.java" afterPath="$PROJECT_DIR$/scripts/RedexAlter/Constants.java" />
+    </list>
     <ignored path="Redex_Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,10 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/bank/Bank.java">
+      <file leaf-file-name="BankUtil.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/bank/BankUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="378" selection-end="378" vertical-scroll-proportion="0.31445086">
+            <state line="7" column="43" selection-start="179" selection-end="179" vertical-scroll-proportion="0.098265894">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="38" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/Store.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/B2PManager.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/BonesToPeaches.java" />
@@ -119,9 +131,10 @@
         <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/Alchemy.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java" />
         <option value="$PROJECT_DIR$/scripts/RedexAlter/RedexAlter.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexAlter/Constants.java" />
         <option value="$PROJECT_DIR$/scripts/RedexAlter/walk/Walker.java" />
         <option value="$PROJECT_DIR$/scripts/RedexAlter/bank/Bank.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexAlter/Constants.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexAlter/bank/BankUtil.java" />
       </list>
     </option>
   </component>
@@ -608,15 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="343" selection-end="343" vertical-scroll-proportion="0.27514452">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/RedexAlter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="4" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
@@ -635,12 +639,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/bank/Bank.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="378" selection-end="378" vertical-scroll-proportion="0.31445086">
+        <state line="21" column="38" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/bank/BankUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="179" selection-end="179" vertical-scroll-proportion="0.098265894">
+          <folding />
         </state>
       </provider>
     </entry>
