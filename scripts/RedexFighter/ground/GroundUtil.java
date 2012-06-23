@@ -7,6 +7,7 @@ package RedexFighter.ground;
 import RedexFighter.Store;
 import org.powerbot.game.api.methods.node.GroundItems;
 import org.powerbot.game.api.methods.tab.Inventory;
+import org.powerbot.game.api.util.Filter;
 import org.powerbot.game.api.util.Time;
 import org.powerbot.game.api.wrappers.node.GroundItem;
 
@@ -20,32 +21,33 @@ import org.powerbot.game.api.wrappers.node.GroundItem;
 public class GroundUtil {
 
     public static void takeItems() {
-        GroundItem item = null;
-        for (String s : Store.lootNames) {
-            for (GroundItem g : GroundItems.getLoaded()) {
-                if (g.getGroundItem().getName().toLowerCase().equals(s.toLowerCase())) {
-                    item = g;
+        GroundItems.getNearest(new Filter<GroundItem>() {
+            @Override
+            public boolean accept(GroundItem groundItem) {
+                for (String s : Store.lootNames) {
+                    if (groundItem.getGroundItem().getName().toLowerCase().equals(s)) {
+                        return true;
+                    }
                 }
+                return false;
             }
-            item.interact("take");
-            Time.sleep(2000, 3000);
-
-        }
+        }).interact("take");
+        Time.sleep(2000, 3000);
 
     }
 
     public static boolean hasItem() {
-        for (String s : Store.lootNames) {
-            for (GroundItem g : GroundItems.getLoaded()) {
-                if (g != null && g.getGroundItem() != null) {
-                    if (g.getGroundItem().getName() != null)
-                        if (g.getGroundItem().getName().toLowerCase().equals(s.toLowerCase())) {
-                            return true;
-                        }
+        return GroundItems.getNearest(new Filter<GroundItem>() {
+            @Override
+            public boolean accept(GroundItem groundItem) {
+                for (String s : Store.lootNames) {
+                    if (groundItem.getGroundItem().getName().toLowerCase().equals(s)) {
+                        return true;
+                    }
                 }
+                return false;
             }
-        }
-        return false;
+        }) == null;
 
     }
 
