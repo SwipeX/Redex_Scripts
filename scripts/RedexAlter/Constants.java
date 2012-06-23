@@ -17,6 +17,8 @@ public class Constants {
 
     public static final int[] GILDED_ALTER = {13197, 13199, 13198, 13188, 13191};
     public static final int[] PORTAL = {15531, 13405};
+    public static final int[] ALTER = {-1};
+    public static final int ALTER_ANIMATION = -1;
     public static final int BONES[] = null;
     public static final Area YANILLE_PORTAL = new Area(new Tile[]{
             new Tile(2539, 3101, 0), new Tile(2539, 3094, 0),
