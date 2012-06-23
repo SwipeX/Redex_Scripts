@@ -4,6 +4,7 @@
 
 package RedexFighter.inventory;
 
+
 import RedexFighter.Store;
 import RedexFighter.Util;
 import org.powerbot.concurrent.Task;
@@ -22,7 +23,8 @@ import org.powerbot.game.api.wrappers.widget.WidgetChild;
  * To change this template use File | Settings | File Templates.
  */
 public class Alchemy extends Strategy implements Task {
-    int Staff = 123;
+    int Staff = 1387;
+    int nat = 561;
     WidgetChild AlchSpell = Widgets.get(192, 59);
 
     public boolean validate() {
@@ -34,7 +36,7 @@ public class Alchemy extends Strategy implements Task {
         if (Util.getItem("Fire Rune") != null || Players.getLocal().getAppearance()[5] == Staff) {
             Alch();
         } else {
-            if (Util.getItem("Fire Staff") != null) {
+            if (Util.getItem("Fire Staff") != null && Util.getItem("Nature Rune") != null) {
                 Util.getItem("Fire Staff").getWidgetChild().click(true);
                 Time.sleep(400, 800);
             }

@@ -25,19 +25,19 @@ public class GroundUtil {
             @Override
             public boolean accept(GroundItem groundItem) {
                 for (String s : Store.lootNames) {
-                    if (groundItem.getGroundItem().getName().toLowerCase().equals(s)) {
+                    if (groundItem.getGroundItem().getName().equals(s)) {
                         return true;
                     }
                 }
                 return false;
             }
-        }).interact("take");
+        }).interact("Take");
         Time.sleep(2000, 3000);
 
     }
 
     public static boolean hasItem() {
-        return GroundItems.getNearest(new Filter<GroundItem>() {
+        return GroundItems.getLoaded(new Filter<GroundItem>() {
             @Override
             public boolean accept(GroundItem groundItem) {
                 for (String s : Store.lootNames) {
