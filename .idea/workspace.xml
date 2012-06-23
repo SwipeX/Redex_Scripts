@@ -69,10 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
+      <file leaf-file-name="Walker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/walk/Walker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="76" selection-start="87" selection-end="87" vertical-scroll-proportion="0.019653179">
+            <state line="4" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bank.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/bank/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="8" selection-start="378" selection-end="378" vertical-scroll-proportion="0.31445086">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/RedexFighter/combat/Fight.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/HealthMonitor.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/Store.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/B2PManager.java" />
@@ -111,6 +120,8 @@
         <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java" />
         <option value="$PROJECT_DIR$/scripts/RedexAlter/RedexAlter.java" />
         <option value="$PROJECT_DIR$/scripts/RedexAlter/Constants.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexAlter/walk/Walker.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexAlter/bank/Bank.java" />
       </list>
     </option>
   </component>
@@ -197,6 +208,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexAlter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -209,7 +242,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -511,16 +544,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1063" selection-end="1167" vertical-scroll-proportion="-1.8651428" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/combat/Fight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="52" selection-start="592" selection-end="592" vertical-scroll-proportion="0.34742856" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/inventory/HealthMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="44" selection-start="590" selection-end="590" vertical-scroll-proportion="0.256" />
@@ -585,6 +608,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="343" selection-end="343" vertical-scroll-proportion="0.27514452">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/RedexAlter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="4" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
@@ -594,9 +626,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
+    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/walk/Walker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="76" selection-start="87" selection-end="87" vertical-scroll-proportion="0.019653179">
+        <state line="4" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/bank/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="378" selection-end="378" vertical-scroll-proportion="0.31445086">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
