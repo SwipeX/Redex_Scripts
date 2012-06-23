@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a05f23-bf6a-4b81-a63f-9c3c6bbf6523" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java" afterPath="$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/RedexFighter/inventory/Alchemy.java" afterPath="$PROJECT_DIR$/scripts/RedexFighter/inventory/Alchemy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
     </list>
     <ignored path="Redex_Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +59,30 @@
     <favorites_list name="Redex_Scripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="RedexAlter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/RedexAlter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="4" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="36" selection-start="463" selection-end="463" vertical-scroll-proportion="0.33410406">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -75,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/groundUtil.java" />
-        <option value="$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/combat/Fight.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/HealthMonitor.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java" />
@@ -91,14 +111,14 @@
         <option value="$PROJECT_DIR$/scripts/RedexFighter/paint/MousePaint.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/inventory/Alchemy.java" />
         <option value="$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexAlter/RedexAlter.java" />
+        <option value="$PROJECT_DIR$/scripts/RedexAlter/Constants.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="-6" />
-    <option name="width" value="1932" />
-    <option name="height" value="1052" />
+    <option name="width" value="960" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -109,7 +129,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -128,6 +148,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,9 +181,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Redex_Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedexAlter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -180,9 +218,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -221,24 +259,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -265,6 +285,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -352,12 +390,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1932" height="1052" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="960" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -365,17 +403,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CafeBabe" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.67" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2427938" sideWeight="0.67" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CafeBabe" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -474,16 +513,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/bank/BankUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="772" selection-end="772" vertical-scroll-proportion="0.5245714" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/RSBot.jar!/org/powerbot/concurrent/strategy/Strategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.4517647" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFisher/RedexFisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="1063" selection-end="1167" vertical-scroll-proportion="-1.8651428" />
@@ -516,16 +545,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/combat/CombatUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="149" selection-start="857" selection-end="857" vertical-scroll-proportion="0.40228572">
-          <folding />
-        </state>
+        <state line="27" column="149" selection-start="857" selection-end="857" vertical-scroll-proportion="0.40228572" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/paint/DebugPaint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.43885714">
-          <folding />
-        </state>
+        <state line="31" column="8" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.43885714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/RedexFighter.java">
@@ -537,36 +562,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/paint/MousePaint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="81" selection-start="626" selection-end="626" vertical-scroll-proportion="0.36571428">
-          <folding />
-        </state>
+        <state line="25" column="81" selection-start="626" selection-end="626" vertical-scroll-proportion="0.36571428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/inventory/Alchemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="188" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="29" column="188" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/ground/GroundUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="487" selection-end="487" vertical-scroll-proportion="0.030857142">
-          <folding />
-        </state>
+        <state line="18" column="16" selection-start="487" selection-end="487" vertical-scroll-proportion="0.030857142" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/ground/Pickup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="555" selection-end="555" vertical-scroll-proportion="0.2742857">
-          <folding />
-        </state>
+        <state line="20" column="27" selection-start="555" selection-end="555" vertical-scroll-proportion="0.2742857" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/RedexFighter/gui/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="405" column="20" selection-start="22669" selection-end="22669" vertical-scroll-proportion="0.018561484">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/RedexAlter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/RedexAlter/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="463" selection-end="463" vertical-scroll-proportion="0.33410406">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
